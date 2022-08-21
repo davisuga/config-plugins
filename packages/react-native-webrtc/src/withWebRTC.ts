@@ -25,6 +25,7 @@ const withWebRTC: ConfigPlugin<IOSPermissionsProps | void> = (
   config = AndroidConfig.Permissions.withPermissions(config, [
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_CONNECT",
     "android.permission.CAMERA",
     "android.permission.INTERNET",
     "android.permission.MODIFY_AUDIO_SETTINGS",
